@@ -1,0 +1,12 @@
+.layout--single .page__content {
+  font-size: 0.8em !important;
+  line-height: 1.5 !important;
+}
+.layout--single h2 {
+  margin-top: 0rem !important;
+  padding-top: 0rem !important;
+}
+.layout--single h3 {
+  margin-top: 0rem !important;
+  padding-top: 0rem !important;
+}
