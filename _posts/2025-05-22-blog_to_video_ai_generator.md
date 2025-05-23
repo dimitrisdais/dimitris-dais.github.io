@@ -71,7 +71,7 @@ The first step of the pipeline involves producing the **structural outline of th
 
 This task falls under the broader field of **Natural Language Processing (NLP)**. Within NLP, there are multiple task categories such as **text classification**, **translation**, **question answering**, and **summarization**. In this case, the pipeline requires **text generation**, which involves generating free-form text continuations from prompts — making it the most appropriate NLP category for producing creative content like titles and section headers.
 
-![NLP Tasks Overview]({{ site.url }}{{ site.baseurl }}/assets/img/NL_tasks_overview.png)
+![NLP Tasks Overview](https://raw.githubusercontent.com/dimitrisdais/dimitris-dais.github.io/master/assets/img/NL_tasks_overview.png)
 
 For this purpose, the [`mistralai/Mistral-7B-Instruct-v0.1`](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1) model was used. Mistral-7B is a publicly available, instruction-tuned language model with 7 billion parameters, designed to follow prompts in a controlled and context-aware manner. According to [its official release](https://mistral.ai/news/announcing-mistral-7b), the model was trained using a high-quality dataset and optimized for instruction-based tasks, making it particularly suitable for use cases such as content planning, summarization, and completion.
 
@@ -98,7 +98,7 @@ In addition to Mistral, Hugging Face hosts a wide range of open text generation 
 A curated list of popular open-access models for text generation can be explored at:  
 🔗 [Text generation models on Hugging Face 🤗](https://huggingface.co/models?pipeline_tag=text-generation&sort=likes) 
 
-![Popular Text Generation Models]({{ site.url }}{{ site.baseurl }}/assets/img/text_generation_models.png)
+![Popular Text Generation Models](https://raw.githubusercontent.com/dimitrisdais/dimitris-dais.github.io/master/assets/img/text_generation_models.png)
 
 Choosing the right model depends on several factors — including the **target task**, the **hardware environment**, and the desired trade-off between output quality and inference latency. In this case, Mistral was selected due to its accessibility, fine-tuned prompt handling, and efficiency in resource-constrained setups.
 
@@ -136,7 +136,7 @@ Popular models for this task include:
 These models are available openly on Hugging Face and can be selected based on style preferences, speed, or compute requirements. A curated list of the most popular text-to-image models can be found here:  
 🔗 [Text-to-image models on Hugging Face 🤗](https://huggingface.co/models?pipeline_tag=text-to-image&sort=likes)
 
-![Popular Text-to-Image Models]({{ site.url }}{{ site.baseurl }}/assets/img/text_to_image_models.png)
+![Popular Text-to-Image Models](https://raw.githubusercontent.com/dimitrisdais/dimitris-dais.github.io/master/assets/img/text_to_image_models.png)
 
 Each model interprets prompts differently, often adding its own visual biases, quirks, or limitations in rendering objects, text, or scenes accurately. Despite these variabilities, the outputs are often surprisingly creative — especially when used for conceptual storytelling or illustrative scenes.
 
@@ -150,7 +150,7 @@ One of the generated blog titles was:
 
 Passing this title through the text-to-image pipeline produced the following visual:
 
-![Generated Cat Image]({{ site.url }}{{ site.baseurl }}/assets/img/generated_image_cat.png)
+![Generated Cat Image](https://raw.githubusercontent.com/dimitrisdais/dimitris-dais.github.io/master/assets/img/generated_image_cat.png)
 
 While the result is clearly surreal and the “text” in the image is nonsensical — a known limitation of most diffusion models — the overall composition, palette, and expressiveness capture the quirky tone of the title impressively well.
 
