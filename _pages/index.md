@@ -107,7 +107,6 @@ Istanbul, Turkey
 
 ## 🔧 Skills
 
-**Languages**: Python, MATLAB  
 **Programming & ML Frameworks**: Python, PyTorch, TensorFlow, Keras, scikit-learn, ultralytics, Hugging Face, OpenAI  
 **Multimodal & Generative AI**: Vision-Language Models (VLMs), transformers, LLM APIs, prompt engineering, zero/few-shot learning  
 **Retrieval-Augmented Generation (RAG) & Q&A**: FAISS, SentenceTransformers, LlamaIndex, LangChain  
