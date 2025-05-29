@@ -26,18 +26,18 @@ This project demonstrates exactly that: a **fully automated pipeline** that take
 
 The goal of this blog is to **showcase the technologies used**, explain the logic behind each step, and offer a transparent look at what is happening under the hood. You will see how **language models** generate structure and narrative, how **diffusion models** turn those ideas into visuals, and how **text-to-speech systems** bring the story to life. Finally, everything is brought together into a cohesive video using standard video tools.
 
-This post is part of the [**Generative AI Lab**](https://github.com/dimitrisdais/generative-ai-lab), a public repository that explores creative and practical uses of LLMs, Vision-Language Models (VLMs), and multimodal AI pipelines. If you are curious about how these systems can be chained together to automate creative workflows, you are in the right place — and in the sections that follow, you will see how each component plays a role in this AI-powered transformation.
-
 Here is an example of the final result — a video automatically generated from a blog post using the pipeline described above:  
 👉 [Watch on YouTube](https://youtu.be/jeSbiYKVsBc?si=n6kSAV1H9SxxpP81)
+
+This post is part of the [**Generative AI Lab**](https://github.com/dimitrisdais/generative-ai-lab), a public repository that explores creative and practical uses of LLMs, Vision-Language Models (VLMs), and multimodal AI pipelines. If you are curious about how these systems can be chained together to automate creative workflows, feel free to explore the other blogs in the repository to discover more exciting applications.
 
 ---
 
 ## 📚 Table of Contents
 
 - [🧩 Pipeline Overview](#-pipeline-overview)
-- [✍️ Step 1: Generate the Blog Structure with an LLM](#️-step-1-generate-the-blog-structure-with-an-llm)
-- [✍️ Step 2: Write Paragraphs for Each Section Using an LLM](#️-step-2-write-paragraphs-for-each-section-using-an-llm)
+- [✍️ Step 1: Generate the Blog Structure with an LLM](#-step-1-generate-the-blog-structure-with-an-llm)
+- [✍️ Step 2: Write Paragraphs for Each Section Using an LLM](#-step-2-write-paragraphs-for-each-section-using-an-llm)
 - [🎨 Step 3: Create Visuals for Each Section with a Text-to-Image Model](#-step-3-create-visuals-for-each-section-with-a-text-to-image-model)
 - [🔊 Step 4: Generate Audio Narration with a Text-to-Speech Model](#-step-4-generate-audio-narration-with-a-text-to-speech-model)
 - [🎬 Step 5: Combine Frames and Audio into the Final Video](#-step-5-combine-frames-and-audio-into-the-final-video)
