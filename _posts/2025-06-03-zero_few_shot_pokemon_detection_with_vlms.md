@@ -41,12 +41,14 @@ This post is part of the [**Generative AI Lab**](https://github.com/dimitrisdais
 
 ---
 
-## 📚 Table of Contents - TODO
+## 📚 Table of Contents
 
-- Input: Pokémon intro video
-- Output: Classified and detected Pokémon (and related elements like people, Pokéballs)
-- Models Used: CLIP, Grounding DINO, OWLv2
-- Methods: Zero-shot and few-shot learning
+- [🧠 Zero-Shot Classification with CLIP](#-zero-shot-classification-with-clip)
+- [🧪 Few-Shot Classification with CLIP Prototypes](#-few-shot-classification-with-clip-prototypes)
+- [🔁 Dataset Expansion via Web Search](#-dataset-expansion-via-web-search)
+- [🕵️ Zero-Shot Object Detection with Grounding DINO](#-zero-shot-object-detection-with-grounding-dino)
+- [🧭 Zero-Shot Object Detection with OWLv2](#-zero-shot-object-detection-with-owlv2)
+- [✅ Conclusions](#-conclusions)
 
 ---
 
@@ -80,7 +82,7 @@ The example below shows CLIP's predictions across selected frames from the test 
 
 ---
 
-## 🧪 Step 2: Few-Shot Classification with CLIP Prototypes
+## 🧪 Few-Shot Classification with CLIP Prototypes
 
 To go beyond zero-shot limitations, we adopt a **few-shot classification** strategy using a labeled Pokémon dataset from [Kaggle](https://www.kaggle.com/datasets/lantian773030/pokemonclassification), containing ~50 images per class.
 
@@ -135,7 +137,7 @@ This approach highlights a practical way to improve recognition performance in z
 
 ---
 
-## 🕵️ Step 4: Zero-Shot Object Detection with Grounding DINO
+## 🕵️ Zero-Shot Object Detection with Grounding DINO
 
 This step introduces [Grounding DINO](https://huggingface.co/IDEA-Research/grounding-dino-base) (`IDEA-Research/grounding-dino-base`), a vision-language model designed for **zero-shot object detection** using natural language prompts. Unlike classification, which assigns a single label to an image or frame, object detection also identifies where the objects are by drawing bounding boxes around them.
 
@@ -149,7 +151,7 @@ This makes Grounding DINO well-suited for detecting multiple objects in dynamic 
 
 ### 📊 Observations from Zero-Shot Object Detection with Grounding DINO 
 
-**✏️ Prompt Sensitivity in Grounding DINO**  
+**✏️ Prompt Sensitivity in Grounding DINO**
 
 The choice of prompt can significantly influence detection performance:
 
@@ -177,7 +179,7 @@ The choice of prompt can significantly influence detection performance:
 
 ---
 
-## 🧭 Step 5: Zero-Shot Object Detection with OWLv2
+## 🧭 Zero-Shot Object Detection with OWLv2
 
 This step introduces [OWLv2](https://huggingface.co/google/owlv2-large-patch14-ensemble) (`google/owlv2-large-patch14-ensemble`), a vision-language model designed for **open-vocabulary object detection** using natural language prompts. OWLv2 improves upon earlier models like Grounding DINO by offering stronger generalization and more robust object localization.
 
@@ -190,7 +192,7 @@ OWLv2 belongs to the family of transformer-based vision-language models trained 
 
 OWLv2 demonstrates how modern detection models can be guided entirely by text to identify and locate objects with high accuracy — even in cluttered or unseen scenarios.
 
-### 📊 Observations from Zero-Shot Object Detection with OWLv2  
+### 📊 Observations from Zero-Shot Object Detection with OWLv2
 
 The OWLv2 model delivers robust results across diverse Pokémon frames using the prompt:  
 `["a pokemon", "a person", "a pokeball"]`
