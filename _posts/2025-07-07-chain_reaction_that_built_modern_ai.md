@@ -524,3 +524,6 @@ In the next post, we will follow that chain into the present:
 2024–2025, where real-time multimodal assistants, long-context models, and agentic AI systems are already redefining what comes next.
 
 **We did not get here by accident. And we are not done.**
+
+Thanks for reading — I hope you found it useful and insightful.  
+Feel free to share feedback, connect, or explore more projects in the [Generative AI Lab](https://github.com/dimitrisdais/generative-ai-lab).
