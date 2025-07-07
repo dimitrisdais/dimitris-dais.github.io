@@ -70,6 +70,8 @@ A short Pokémon intro video (~1 minute) was sourced from [Archive.org](https://
 
 🔗 https://ia902305.us.archive.org/35/items/twitter-1421216532307267595/1421216532307267595.mp4
 
+---
+
 ### 📊 Observations from Zero-Shot Classification
 
 The example below shows CLIP's predictions across selected frames from the test video.
@@ -94,6 +96,8 @@ To go beyond zero-shot limitations, we adopt a **few-shot classification** strat
 This method improves prediction accuracy while requiring only a handful of labeled examples per class.
 
 ![Labeled Pokémon images from Kaggle dataset for few-shot learning.](https://raw.githubusercontent.com/dimitrisdais/dimitris-dais.github.io/master/assets/img/kaggle_pokemon_fewshot_samples.png)
+
+---
 
 ### 📊 Observations from Few-Shot Classification
 
@@ -126,6 +130,8 @@ To address this limitation:
 
 This approach highlights a practical way to improve recognition performance in zero- or few-shot settings by closing key data gaps.
 
+---
+
 ### ⚠️ Considerations for Dataset Expansion
 
 - Retrieved images often include unrelated elements (e.g., Ash alongside other characters), which may confuse the model.
@@ -148,6 +154,8 @@ Grounding DINO belongs to a newer class of multimodal models that tightly integr
 - 🔍 Detection is flexible and open-ended — no fixed class vocabulary or retraining is required.
 
 This makes Grounding DINO well-suited for detecting multiple objects in dynamic scenes, directly from descriptive text. It enables general-purpose object localization without supervision, bridging visual and linguistic domains effectively.
+
+---
 
 ### 📊 Observations from Zero-Shot Object Detection with Grounding DINO 
 
@@ -191,6 +199,8 @@ OWLv2 belongs to the family of transformer-based vision-language models trained 
 - 🎯 Supports detection of multiple, diverse objects in complex scenes without fine-tuning.
 
 OWLv2 demonstrates how modern detection models can be guided entirely by text to identify and locate objects with high accuracy — even in cluttered or unseen scenarios.
+
+---
 
 ### 📊 Observations from Zero-Shot Object Detection with OWLv2
 
