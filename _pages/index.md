@@ -17,7 +17,7 @@ Hi, I am Dimitris Dais — a Senior Machine Learning Engineer with a PhD in Arti
 🔹 Experienced ML engineer delivering end-to-end AI solutions for complex, real-world challenges  
 🔹 Skilled in defining problem scope, data strategy, and selecting optimal AI stacks  
 🔹 Proven track record in AI innovation in academia (PhD, 10+ papers, 450+ citations) and industry  
-🔹 Strong hands-on experience with multimodal & generative AI: VLMs/LLMs 🤗, transformers, prompt engineering, zero/few-shot learning  
+🔹 Strong hands-on experience with multimodal & generative AI: VLMs/LLMs, transformers, prompt engineering, zero/few-shot learning  
 🔹 Built and deployed cloud-based AI pipelines for real-time visual understanding and automated incident verification  
 
 ---
