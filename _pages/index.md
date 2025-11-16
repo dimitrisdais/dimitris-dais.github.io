@@ -12,11 +12,11 @@ classes: wide
 
 📌 Open to new opportunities
 
-Hi, I am Dimitris Dais — a Senior Machine Learning Engineer with a PhD in Artificial Intelligence and Civil Engineering
+Hi, I am Dimitris Dais, a GenAI Specialist / Senior Machine Learning Engineer with a PhD in Artificial Intelligence and Civil Engineering
 
 🔹 Experienced ML engineer delivering end-to-end AI solutions for complex, real-world challenges  
 🔹 Skilled in defining problem scope, data strategy, and selecting optimal AI stacks  
-🔹 Proven track record in AI innovation in academia (PhD, 10+ papers, 450+ citations) and industry  
+🔹 Proven track record in AI innovation in academia (PhD, 10+ papers, 550+ citations) and industry  
 🔹 Strong hands-on experience with multimodal & generative AI: VLMs/LLMs, transformers, prompt engineering, zero/few-shot learning  
 🔹 Built and deployed cloud-based AI pipelines for real-time visual understanding and automated incident verification  
 
@@ -24,11 +24,23 @@ Hi, I am Dimitris Dais — a Senior Machine Learning Engineer with a PhD in Arti
 
 ## 💼 Professional Experience
 
-### Freelance — *Remote*  
-**Senior Machine Learning Engineer** (Sep 2024 – Present)  
+### Zanders 
+**GenAI Specialist – Risk Advisory Group** (Sep 2025 – Present)  
+Utrecht, The Netherlands
+
+Designing, evaluating, and delivering GenAI solutions for clients across financial institutions
+
+- Building knowledge-driven chatbots and LLM workflows using RAG architectures  
+- Developing compliance and policy-checking pipelines for risk-sensitive processes with automated documentation generation  
+- Leading the conceptualization and technical design of new GenAI applications, defining architectures, evaluation protocols, and deployment requirements
+
+---
+
+### Delian Alliance Industries *(Freelance / Remote)*  
+**Senior Machine Learning Engineer** (Sep 2024 – May 2025)  
 Athens, Greece / London, UK
 
-Working on real-time detection models and decision-support systems for defense and civil protection applications  
+Worked on real-time detection models and decision-support systems for defense and civil protection applications  
 
 - Enhanced detection performance across diverse real-world scenarios by developing case-specific solutions
 - Defined evaluation datasets and benchmarking protocols for multimodal input (RGB, thermal, NIR) for scenario-specific optimization
@@ -38,7 +50,7 @@ Working on real-time detection models and decision-support systems for defense a
 
 ---
 
-### Freelance — *Remote*  
+### Irmos Technologies *(Freelance / Remote)*  
 **Senior Machine Learning Engineer** (Dec 2024 – Feb 2025)  
 Zurich, Switzerland
 
